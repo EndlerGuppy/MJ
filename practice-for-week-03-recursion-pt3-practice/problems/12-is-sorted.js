@@ -12,6 +12,7 @@ isSorted([5, 4, 3, 2, 1]); // false
 
 
 function isSorted(arr) {
+  if (arr === ) return false
   // Your code here
 }
 

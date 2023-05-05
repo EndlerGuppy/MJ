@@ -12,17 +12,21 @@ examples below if you're unsure where to start!
 
 Examples:
 
+***********************************************************************/
+
+function fibonacci(num) {
+  if (num === 0) return num
+
+  const nums = num1, num2, num3
+  fibonacci()
+  // Your code here
+  return
+}
+
 fibonacci(1); // 1
 fibonacci(2); // 1
 fibonacci(3); // 2
 fibonacci(4); // 3
 fibonacci(10); // 55
-***********************************************************************/
-
-function fibonacci(n) {
-  // Your code here
-}
-  
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 module.exports = fibonacci;
-  

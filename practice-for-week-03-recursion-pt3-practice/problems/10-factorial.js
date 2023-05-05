@@ -11,15 +11,20 @@ point, also sometimes called a "bang" in programming.
 
 Examples:
 
+***********************************************************************/
+
+
+function factorial(n) {
+
+  if (n === 1) return 1
+  return n * factorial(n - 1)
+}
+
+factorial(5); // Your code here
+
 factorial(1); // 1
 factorial(3); // 6
 factorial(5); // 120
-***********************************************************************/
 
-function factorial(num) {
-  // Your code here
-}
-  
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 module.exports = factorial;
-  
