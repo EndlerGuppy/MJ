@@ -14,13 +14,9 @@ Examples:
 
 ***********************************************************************/
 
-function fibonacci(num) {
-  if (num === 0) return num
-
-  const nums = num1, num2, num3
-  fibonacci()
-  // Your code here
-  return
+function fibonacci(n, prevNum = 0, currNum = 1) {
+  if (n === 1) return currNum;
+  return fibonacci(n - 1, currNum, currNum + prevNum)
 }
 
 fibonacci(1); // 1
